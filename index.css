@@ -1,0 +1,104 @@
+*{
+	box-sizing: border-box; font-family: sans-serif; margin: 0; padding: 0;
+}
+.container{
+	padding-left: 10%; padding-right: 10%;
+}
+
+#navdiv{
+	width: 100%; position: fixed; background-color: #fff; height: 60px;
+}
+div.navlogo{
+	width: 20%; float: left; 
+}
+div.nav{
+	width: 80%; float: right;
+}
+li.nav {
+	display: inline; border: 1px solid white; padding: 10px; list-style: none; padding: 20px; margin: 0;
+}
+li.nav:hover {
+	background-color: #00b7ff;
+}
+
+#descriptdiv{
+	background-image: url(assets/background.jpg);
+}
+h1.descript{
+	font-size: 35px; text-align: center; padding-top: 50px;
+}
+p.descript{
+	font-size: 30px; text-align: center; padding-bottom: 150px; padding-top: 20px; line-height: 2;
+}
+
+#descript2div{
+	background-color: #00b7ff;
+}
+h1.descript2{
+	color: white; text-align: center; font-size: 30px; padding-top: 20px; padding-bottom: 20px;
+}
+
+div.service{
+	width: 32%; float: left; padding: 15px 10px 15px 10px;
+}
+h2.service{
+	text-align: center; color: #756f85; font-size: 25px;
+}
+h3.service{
+	color: #00b7ff; font-size: 25px;
+}
+p.service{
+	line-height: 2; font-size: 20px;
+}
+
+#expertisediv{
+	background-color: #f2f4f5;
+}
+h4.expertisediv{
+	text-align: center; color: #756f85; font-size: 30px;
+}
+div.expertise{
+	width: 25%; float: left; padding-left: 15px; padding-right: 15px;
+}
+h5.expertise{
+	color: #fff; text-align: center; font-size: 18px; padding: 20px 10px; margin-bottom: 0; 
+}
+div.expertiseimg{
+	background-color: #fff; border: 1px solid #f2f2f2; margin: 0; 
+}
+img.expertiseimg{
+	margin: 0; display: block; padding: 20px 10px; 
+}
+
+div.innovateimg{
+	float: left; width: 45%; padding-left: 15px; padding-right: 15px;
+}
+div.innovatedescript{
+	float: left; width: 55%; padding-left: 15px; padding-right: 15px; 
+}
+h4.innovatedescript{
+	color: #31708f; font-size: 35px; margin-bottom: 0; 
+}
+p.innovatedescript{
+	font-size: 20px; line-height: 2; 
+}
+
+#linksdiv{
+	background-color: #f6f6f6;
+}
+div.links{
+	width: 25%; float: left;
+}
+h4.links{
+	color: #00b7ff; font-size: 25px; 
+}
+ul.links{
+	list-style: none; padding-left: 0px; line-height: 2;
+}
+
+.footer{
+	width: 100%; background-color: #000; 
+}
+p.footer{
+	padding-top: 15px; padding-bottom: 15px; text-align: center; color: #fff; 
+}
