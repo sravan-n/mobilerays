@@ -4,18 +4,11 @@
 .container{
 	padding-left: 10%; padding-right: 10%;
 }
-
-#navdiv{
-	width: 100%; position: fixed; background-color: #fff; height: 60px;
+img.navlogo{
+	padding: 10px; 
 }
-div.navlogo{
-	width: 20%; float: left; 
-}
-div.nav{
-	width: 80%; float: right;
-}
-li.nav {
-	display: inline; border: 1px solid white; padding: 10px; list-style: none; padding: 20px; margin: 0;
+li.nav{
+	display: inline; float: left; width: 20%; padding: 15px; font-size: 12px; 
 }
 li.nav:hover {
 	background-color: #00b7ff;
@@ -67,7 +60,7 @@ div.expertiseimg{
 	background-color: #fff; border: 1px solid #f2f2f2; margin: 0; 
 }
 img.expertiseimg{
-	margin: 0; display: block; padding: 20px 10px; 
+	margin: 0; display: block; padding: 20px 10px; text-align: center;
 }
 
 div.innovateimg{
